@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pretendard-Regular';
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.secBox{
+
+    width: 100%;
+    margin: auto;
+    margin-top: 12px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.as{
+    margin-top: 4vh;
+    height: 300px;
+}
+.formbox{
+    width: 70%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.login_img{
+    width: 360px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+}
+.formbox{
+    width: 360px;
+    margin: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+.loginHead{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+form{
+    padding: 30px;
+}
+@media screen and (max-width: 768px) {
+    
+	.secBox {
+		width: 100%;
+	}
+    .formbox{
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .login_img{
+        width: 100%;
+    }
+}
